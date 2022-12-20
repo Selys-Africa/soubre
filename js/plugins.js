@@ -12,13 +12,13 @@
 	var doc = jQuery(document);
 	// detect device type
 	var isTouchDevice = ('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch,
-		isWinPhoneDevice = /Windows Phone/.test(navigator.userAgent);
+		isWinPhoneDevice = /Windows Téléphone/.test(navigator.userAgent);
 
 	// define events
 	var eventOn = (isTouchDevice && 'touchstart') || (isWinPhoneDevice && navigator.pointerEnabled && 'pointerdown') || (isWinPhoneDevice && navigator.msPointerEnabled && 'MSPointerDown') || 'mouseenter',
 		eventOff = (isTouchDevice && 'touchend') || (isWinPhoneDevice && navigator.pointerEnabled && 'pointerup') || (isWinPhoneDevice && navigator.msPointerEnabled && 'MSPointerUp') || 'mouseleave';
 
-	isTouchDevice = /Windows Phone/.test(navigator.userAgent) || ('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch;
+	isTouchDevice = /Windows Téléphone/.test(navigator.userAgent) || ('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch;
 
 	function toggleClass(opt, e) {
 		var el = jQuery(e.currentTarget);
