@@ -1,0 +1,34 @@
+-index
+
+-ma mairie
+    -Le conseil municipal
+    -Commissions
+    -Décision et décret
+    -Nos partenaires
+
+-contacts
+    -Contacter la mairie via email, téléphone
+    -Soumettre une plainte anonyme ou nommé
+
+
+-Education: 
+    -Enseignement primaire
+    -Enseignement secondaire
+    -Enseignement supérieur
+    -Centre éducatifs et Bibliothèque
+
+-A la découverte de Soubré
+    -Assainissement:
+    -Urbanisme:
+    -Historique:
+    -Découvrir la commune: 
+    -Festivité:
+
+-Démarche administrative:
+
+-Culture et Loisir
+    - Tourisme
+    - Associations culturelles
+    - Galerie
+
+-Urgences
